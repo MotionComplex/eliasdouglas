@@ -11,7 +11,8 @@ export class AppComponent {
   isNavigationEnabled: boolean;
 
   constructor(private router: Router) {
-    this.isNavigationEnabled = this.router.url !== '/music';
+    console.log( this.router.url);
+    this.isNavigationEnabled = this.router.url !== '/';
     console.log(this.isNavigationEnabled);
   }
 }

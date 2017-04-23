@@ -80,30 +80,37 @@
     background-position-y: top 15px;
     /*background-position-x: left 25px;*/
 }
+.squarecontent_me {
+    background-image: url("assets/img/navigation_img/me.png");
+    transition: .3s;
+}
+.squarecontent_me:hover {
+    background-image: url("assets/img/navigation_img/me_color.png");
+}
 .squarecontent_music {
-    background-image: url("../../../assets/img/navigation_img/music.png");
+    background-image: url("assets/img/navigation_img/music.png");
     transition: .3s;
 }
 .squarecontent_music:hover {
-    background-image: url("../../../assets/img/navigation_img/music_color.png");
+    background-image: url("assets/img/navigation_img/music_color.png");
 }
 .squarecontent_sports {
-    background-image: url("../../../assets/img/navigation_img/american-football.png");
+    background-image: url("assets/img/navigation_img/american-football.png");
 }
 .squarecontent_sports:hover {
-    background-image: url("../../../assets/img/navigation_img/american-football_color.png");
+    background-image: url("assets/img/navigation_img/american-football_color.png");
 }
 .squarecontent_coding {
-    background-image: url("../../../assets/img/navigation_img/coding.png");
+    background-image: url("assets/img/navigation_img/coding.png");
 }
 .squarecontent_coding:hover {
-    background-image: url("../../../assets/img/navigation_img/coding_color.png");
+    background-image: url("assets/img/navigation_img/coding_color.png");
 }
 .squarecontent_travelling {
-    background-image: url("../../../assets/img/navigation_img/travelling.png");    
+    background-image: url("assets/img/navigation_img/travelling.png");    
 }
 .squarecontent_travelling:hover {
-    background-image: url("../../../assets/img/navigation_img/travelling_color.png");
+    background-image: url("assets/img/navigation_img/travelling_color.png");
 }
 /*.squarecontent:hover .info_preview {
     display: block;
@@ -118,4 +125,11 @@
     background: red;
     transition: .3s;*/
     display: none;
+}
+.footer {
+    /*height: 60px;
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-image: url("assets/img/footer_tesseract.png");*/
 }

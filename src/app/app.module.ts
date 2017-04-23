@@ -5,21 +5,21 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule, ROUTES } from './modules/app-routing.module';
+import { NavigationModule } from './common/navigation/navigation.module';
 import { HomeModule } from './modules/home/home.module';
+import { MeModule } from './modules/me/me.module';
 import { MusicModule } from './modules/music/music.module';
 import { SportsModule } from './modules/sports/sports.module';
 import { CodingModule } from './modules/coding/coding.module';
 import { TravellingModule } from './modules/travelling/travelling.module';
 
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './common/navigation/navigation.component';
 import { CodingComponent } from './modules/coding/coding.component';
 import { TravellingComponent } from './modules/travelling/travelling.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavigationComponent
+    AppComponent
   ],
   imports: [
     AppRoutingModule,
@@ -27,7 +27,9 @@ import { TravellingComponent } from './modules/travelling/travelling.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    NavigationModule,
     HomeModule,
+    MeModule,
     MusicModule,
     SportsModule,
     CodingModule,
