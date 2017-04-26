@@ -14,13 +14,26 @@
     background-position: center;
     background-size:100px;
     background-repeat: no-repeat; 
-    transition: .3s;
+    /*transition: .3s;*/
+    animation: pulse 2s ease-in-out;
+    -webkit-animation-iteration-count: infinite;
 }
 #header:hover {
-    background-position: center;
-    background-size:120px;
-    transition: .3s;
+    animation: none;
 }
+
+@keyframes pulse {
+    0% {
+        background-size:100px;
+    }
+    50% {
+        background-size:120px;
+    }
+    100% {
+        background-size:100px;
+    }
+}
+
 #main {
     min-height: 400px;
     padding: 15px 0;

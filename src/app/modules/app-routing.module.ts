@@ -15,24 +15,32 @@ export const ROUTES: Routes = [
     component: HomeComponent
   },
   {
-    path: 'me',
-    component: MeComponent
-  },
-  {
     path: 'music',
-    component: MusicComponent
+    component: MusicComponent,
+    data: {
+      title: 'Music'
+    }
   },
   {
     path: 'sports',
-    component: SportsComponent
+    component: SportsComponent,
+    data: {
+      title: 'Sports'
+    }
   },
   {
     path: 'coding',
-    component: CodingComponent
+    component: CodingComponent,
+    data: {
+      title: 'Coding'
+    }
   },
   {
     path: 'travelling',
-    component: TravellingComponent
+    component: TravellingComponent,
+    data: {
+      title: 'Travelling'
+    }
   }
 ];
 
